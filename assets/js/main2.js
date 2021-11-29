@@ -29,8 +29,19 @@ const somma = userNumber + computerNumber
 // Stabiliamo se la somma dei due numeri è pari o dispari e dichiariamo il vincitore
 
 if (somma % 2 == 0 && userPariDispari == "pari" ) {
-    console.log("hai vinto!");
+    console.log(`Hai scelto ${userPariDispari},
+    hai inserito il numero ${userNumber},
+    il computer ha generato il numero casuale ${computerNumber},
+    la somma dei 2 numeri e pari quindi hai vinto! `);
 } else if  (somma %2 != 0 && userPariDispari == "dispari") {
-    console.log("hai");
+    console.log(`Hai scelto ${userPariDispari},
+    hai inserito il numero ${userNumber},
+    il computer ha generato il numero casuale ${computerNumber},
+    la somma dei 2 numeri e dispari quindi hai vinto! `);
+} else {
+    console.log(`Hai scelto ${userPariDispari},
+    hai inserito il numero ${userNumber},
+    il computer ha generato il numero casuale ${computerNumber},
+    in base alle regole stabilite ha vinto il computer`);
 }
 
