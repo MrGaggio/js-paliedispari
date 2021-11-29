@@ -9,8 +9,8 @@ Creare una funzione per capire se la parola inserita è palindroma
     //Chiedere all’utente di inserire una parola
     let parola = prompt('Inserisci una parola per verificare se è palindroma')
 
- 
-    const palindromo = parola.split().reverse().join()
+  
+ /*    const palindromo = parola.split().reverse().join()
 
 
     function checkPalindromo (parola) {
@@ -19,7 +19,8 @@ Creare una funzione per capire se la parola inserita è palindroma
             console.log(parola + " è un palindromo");
         } else (parola + " non è un palindromo") 
 
+        
     }
 
-    const verifica = checkPalindromo(parola)
-    console.log(verifica);
+
+    
