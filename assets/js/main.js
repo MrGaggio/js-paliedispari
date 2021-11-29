@@ -10,13 +10,13 @@ Creare una funzione per capire se la parola inserita è palindroma
     let parola = prompt('Inserisci una parola per verificare se è palindroma')
 
 
-  
-    function reverse(parola){
+/*   
+    function reverse(world){
         if(parola == parola.reverse()) {
             console.log("è un palindromo");
         }
     }
 
 
-    const palindromo = reverse(parola)
-    console.log(palindromo);
+    const world = reverse(parola)
+    console.log(palindromo); */
